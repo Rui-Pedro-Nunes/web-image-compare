@@ -1,4 +1,4 @@
-require 'chunky_png'
+require 'oily_png'
 require_relative 'chunky_png/operations'
 
 # Compare image class
