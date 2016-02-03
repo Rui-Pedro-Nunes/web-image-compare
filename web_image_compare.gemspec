@@ -25,5 +25,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '~> 10.4'
   s.add_development_dependency 'yard', '~> 0.8'
 
-  s.add_runtime_dependency 'oily_png', '~> 1.1'
+  s.add_runtime_dependency 'oily_png', '~> 1.2'
 end
