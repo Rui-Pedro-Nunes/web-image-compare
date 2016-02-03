@@ -2,9 +2,9 @@ module CmpImgTool
   # BW config api Version
   module Version
     # The current gem version
-    VERSION = '0.0.0'
+    VERSION = '0.0.1'
     # The date version was updated
-    DATE    = '2016-02-01'
+    DATE    = '2016-02-03'
     # Debug output that will contain ruby information
     MSG     = 'Version %s %s (running on %s-%s)'
 
