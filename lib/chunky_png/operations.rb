@@ -3,6 +3,8 @@ module ChunkyPNG
   class Canvas
     # Module operations
     module Operations
+      include ChunkyPNG::Color
+
       # Performs the image comparison pixel by pixel
       #
       # @param [String] result_img complete path to where is intended save the image

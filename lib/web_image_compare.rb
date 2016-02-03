@@ -5,7 +5,7 @@ require_relative 'chunky_png/operations'
 class WebImageCompare
   include ChunkyPNG::Color
 
-  # inizialize the object with the path for the two images
+  # initialize the object with the path for the two images
   #
   # @param pattern_file_path [String] Path for the pattern image
   # @param img_to_compare_path [String] Path for the image that it is to compare
@@ -17,7 +17,7 @@ class WebImageCompare
   end
 
   # Performs the actions to obtain the final image and then
-  # perfoms the image comparison
+  # performs the image comparison
   #
   # @param record_mode [Boolean] true - saves the pattern image, false - performs the image comparison
   # @param elements [Hash] Elements to hide or?and crop
