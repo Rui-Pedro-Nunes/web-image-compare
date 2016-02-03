@@ -3,8 +3,6 @@ module ChunkyPNG
   class Canvas
     # Module operations
     module Operations
-      include ChunkyPNG::Color
-
       # Performs the image comparison pixel by pixel
       #
       # @param [String] result_img complete path to where is intended save the image
@@ -35,7 +33,7 @@ module ChunkyPNG
 
     def pixel_difference(pixel_1, pixel_2)
       Math.sqrt(
-          (r(pixel_1) - r(pixel_2))**2 +
+          (r(pixel_1) - Color.r(pixel_2))**2 +
               (g(pixel_1) - g(pixel_2))**2 +
               (b(pixel_1) - b(pixel_2))**2
       ) / Math.sqrt(MAX**2 * 3)

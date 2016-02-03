@@ -1,9 +1,9 @@
 require 'oily_png'
 require_relative 'chunky_png/operations'
+include ChunkyPNG::Color
 
 # Compare image class
 class WebImageCompare
-  include ChunkyPNG::Color
 
   # initialize the object with the path for the two images
   #
